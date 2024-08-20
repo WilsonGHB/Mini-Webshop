@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/5afaafd6db.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        
+    </div>
+
+    
+    <div class="topnav">
+      <a href="file.html"><i class="fa-solid fa-house"></i></a>
+      
+      
+      </div>
+      
+    </div>
+
+    <div class="container">
+        
+        <h1>Winkelwagen</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Prijs</th>
+                    <th>Aantal</th>
+                    <th>Totaal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dumbells</td>
+                    <td>€<span class="prijs">25.00</span></td>
+                    <td><input type="number" value="0" class="aantal" min="0"></td>
+                    <td>€<span class="totaal-item">25.00</span></td>
+                </tr>
+                <tr>
+                    <td>Handgrip</td>
+                    <td>€<span class="prijs">10.00</span></td>
+                    <td><input type="number" value="0" class="aantal" min="0"></td>
+                    <td>€<span class="totaal-item">10.00</span></td>
+                </tr>
+                <tr>
+                    <td>Squatrack</td>
+                    <td>€<span class="prijs">300.00</span></td>
+                    <td><input type="number" value="0" class="aantal" min="0"></td>
+                    <td>€<span class="totaal-item">300.00</span></td>
+                </tr>
+                <tr class="total">
+                    <td colspan="3">Totaal:</td>
+                    <td>€<span id="totaal">335.00</span></td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="#" class="btn">Afrekenen</a>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
